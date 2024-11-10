@@ -1704,6 +1704,10 @@
   /*--------------------------------------------------------------
   # Services Section
   --------------------------------------------------------------*/
+  .services{  /*a: Added this for top margin */
+    padding-top: 120px;
+  }
+
   .services .service-card {
     height: 100%;
     padding: 30px;
