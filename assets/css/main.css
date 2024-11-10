@@ -11,11 +11,11 @@
   
   /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
   :root { 
-    --background-color: #626161; /* Background color for the entire website, including individual sections */
+    --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
-    --heading-color: #e7ba66; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #d6aa38; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-    --surface-color: #505050; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+    --heading-color: #ffb733; /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #ffb700; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --surface-color: #333333; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
   }
   
@@ -52,15 +52,15 @@
   /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
   
   .light-background {
-    --background-color: #929292;
+    --background-color: #e1e1e1;
     --surface-color: #ffffff;
   }
   
   .dark-background {
-    --background-color: #e8e8e8;
+    --background-color: #ecc164;
     --default-color: #242424;
     --heading-color: #ffffff;
-    --surface-color: #409dfd;
+    --surface-color: #ffffff;
     --contrast-color: #ffffff;
   }
   
@@ -165,7 +165,7 @@
   
   .header .header-container {
     background: var(--surface-color);
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 5px 25px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   }
@@ -2042,12 +2042,12 @@
     border-radius: 50px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid color-mix(in srgb, #d6aa38, transparent 30%);
-    color: #e19200;
+    border: 2px solid color-mix(in srgb, #ffffff, transparent 30%);
+    color: #ffffff;
   }
   
   .call-to-action-2 .cta-btn:hover {
-    border-color: #000000;
+    border-color: #ffbb00;
   }
   
   /*--------------------------------------------------------------
